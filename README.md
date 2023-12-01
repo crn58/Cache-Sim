@@ -12,6 +12,8 @@ The simulator will be invoked with three command-line arguments as follows:
  by a space. No address should exceed the mem_size
 
 -----------------------------------------------------------------------------------------------------------------
+# Input
+
 Cache_simulator.cpp - A 2-level cache, that determines hits and miss percentages 
 
 Example input in command prompt: 
@@ -29,7 +31,7 @@ input_access.txt: File containing memory access addresses.
 
 
 -------------------------------------------------------------------------------------------------------------------
-Output 
+# Output 
 A file with the name of "hitmiss-out.txt" which has a line with the address and whether there was 
 a hit or a miss. The program should also report on the hit/miss percentages. 
 Example: 
@@ -38,7 +40,7 @@ Call the command: ./cache_sim 4 2 accesslist.txt.
  Resulting file "hitmiss-out.txt" should contain:
 
 -------------------------------------------------------------------------------------------------------------------
-Building the code 
+# Building the code 
 The simulator will take as input (i) the configuration parameters of a cache and (ii) a sequence of memory addresses requested by 
 the CPU. It will then simulate the behavior of the configured cache on the given memory 
 references. Upon completion, the simulator will report for each reference whether it is a hit or a 
