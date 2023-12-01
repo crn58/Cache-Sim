@@ -14,9 +14,11 @@ The simulator will be invoked with three command-line arguments as follows:
 -----------------------------------------------------------------------------------------------------------------
 Cache_simulator.cpp - A 2-level cache, that determines hits and miss percentages 
 
-Example input in command prompt: ./cache_simulator mem_size L1_cache_size L2_cache_size L1_associativity access_filename
+Example input in command prompt: 
 
+./cache_simulator mem_size L1_cache_size L2_cache_size L1_associativity access_filename
 
+Example 2
 cache_simulator.exe 8192 512 8192 4 accesslist.txt
 
 > 8192: Memory size in bytes.
