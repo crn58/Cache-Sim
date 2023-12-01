@@ -1,3 +1,21 @@
+//Author(s) : Kazi Ahsan, Shawn Spicer, Michaelangelo Bullard
+// Due Date : 2023-11-30
+// Extra Credit-3: Cache Simulator
+//Instructor: Randall Klepetko
+
+/*
+
+The simulator will take as input (i) the configuration parameters of a cache and (ii) a sequence of memory addresses requested by
+the CPU. It will then simulate the behavior of the configured cache on the given memory
+references. Upon completion, the simulator will report for each reference whether it is a hit or a
+miss in cache.
+Each cache entry consists of a valid bit and a tag. The tag should be extracted from the
+memory address in the customary way. For the purposes of this homework, no actual data will be
+stored in the cache. Hits and misses will be determined by analyzing the memory addresses.
+
+
+*/
+
 #include <iostream>
 #include <fstream>
 #include <vector>
