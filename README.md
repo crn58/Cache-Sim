@@ -50,5 +50,9 @@ Each cache entry consists of a valid bit and a tag. The tag should be extracted 
 memory address in the customary way. For this homework, no actual data will be 
 stored in the cache. Hits and misses will be determined by analyzing the memory addresses. 
 
+------------------------------------------------------------------------------------------------------------------
 
+# Bugs 
+
+The code runs smoothly but the hit-to-miss percent may be incorrect, based on our understanding of caches. 
 
