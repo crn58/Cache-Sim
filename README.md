@@ -2,7 +2,7 @@
 The code below creates a cache simulator. 
 
 
-Cache_sim.cpp - just a basic cache 
+Cache_sim.cpp - A basic cache. 
 The simulator will be invoked with three command-line arguments as follows: 
 ./cache_sim mem_size cache_size access_filename
 
